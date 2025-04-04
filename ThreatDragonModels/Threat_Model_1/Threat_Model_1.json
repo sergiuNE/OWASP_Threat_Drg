@@ -28,8 +28,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "f4510ffc-2dc2-4b7a-a46c-31b986937243",
             "zIndex": -1,
+            "id": "f4510ffc-2dc2-4b7a-a46c-31b986937243",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -49,8 +49,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "fff3160f-0eed-48ec-9b02-e74ea760d333",
             "zIndex": -1,
+            "id": "fff3160f-0eed-48ec-9b02-e74ea760d333",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -70,8 +70,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "e0373cb4-efe3-46dd-bfb7-f751f9bcd5d4",
             "zIndex": -1,
+            "id": "e0373cb4-efe3-46dd-bfb7-f751f9bcd5d4",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -847,6 +847,7 @@
               "R1. Ongeautoriseerde toegang zonder logging"
             ],
             "id": "17ae9c4e-4f57-4d0e-8b3f-d9b8b8631422",
+            "parent": "4b0bef8a-e9e7-42aa-965c-71c8cf30640a",
             "source": {
               "cell": "4b0bef8a-e9e7-42aa-965c-71c8cf30640a",
               "port": "a3baff4a-cf30-4c82-b32c-e794cac2b071"
@@ -855,8 +856,7 @@
               "cell": "4b0bef8a-e9e7-42aa-965c-71c8cf30640a",
               "port": "846c899f-0bd2-4a88-a20a-abc154feaf1b"
             },
-            "vertices": [],
-            "parent": "4b0bef8a-e9e7-42aa-965c-71c8cf30640a"
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1173,6 +1173,7 @@
               "E2. Fysieke toegang tot onbeheerde laptops"
             ],
             "id": "21867a87-6665-410d-bcc2-854834a2936b",
+            "parent": "4b0bef8a-e9e7-42aa-965c-71c8cf30640a",
             "source": {
               "cell": "4b0bef8a-e9e7-42aa-965c-71c8cf30640a",
               "port": "a3baff4a-cf30-4c82-b32c-e794cac2b071"
@@ -1181,8 +1182,7 @@
               "cell": "4b0bef8a-e9e7-42aa-965c-71c8cf30640a",
               "port": "846c899f-0bd2-4a88-a20a-abc154feaf1b"
             },
-            "vertices": [],
-            "parent": "4b0bef8a-e9e7-42aa-965c-71c8cf30640a"
+            "vertices": []
           },
           {
             "position": {
@@ -1200,8 +1200,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "9d82d52a-49c7-43ab-b4b2-153a7a26e9de",
             "zIndex": 23,
+            "id": "9d82d52a-49c7-43ab-b4b2-153a7a26e9de",
             "data": {
               "type": "tm.Text",
               "name": "TB_Server",
@@ -1232,6 +1232,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 24,
             "ports": {
               "groups": {
                 "top": {
@@ -1315,7 +1316,6 @@
               ]
             },
             "id": "053b94d1-31d1-45bb-85b7-d6144be8d9e0",
-            "zIndex": 24,
             "data": {
               "type": "tm.Store",
               "name": "Database",
@@ -1352,6 +1352,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -1435,7 +1436,6 @@
               ]
             },
             "id": "4b0bef8a-e9e7-42aa-965c-71c8cf30640a",
-            "zIndex": 25,
             "data": {
               "type": "tm.Actor",
               "name": "Remote Werker",
@@ -1472,6 +1472,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 26,
             "ports": {
               "groups": {
                 "top": {
@@ -1555,7 +1556,6 @@
               ]
             },
             "id": "f746b905-744f-4be8-8207-ccf4f28d5403",
-            "zIndex": 26,
             "data": {
               "type": "tm.Process",
               "name": "Internet Verbinding",
@@ -1591,6 +1591,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 27,
             "ports": {
               "groups": {
                 "top": {
@@ -1674,7 +1675,6 @@
               ]
             },
             "id": "28c67ca4-67ae-4688-975c-6f028534480c",
-            "zIndex": 27,
             "data": {
               "type": "tm.Process",
               "name": "MS Office",
@@ -1705,8 +1705,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "50e24842-22d6-4408-807f-d817fb988bf2",
             "zIndex": 28,
+            "id": "50e24842-22d6-4408-807f-d817fb988bf2",
             "data": {
               "type": "tm.Text",
               "name": "TB_Network",
@@ -1729,8 +1729,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "5fc8aa88-0896-4bd2-b979-9f6881ff1c17",
             "zIndex": 29,
+            "id": "5fc8aa88-0896-4bd2-b979-9f6881ff1c17",
             "data": {
               "type": "tm.Text",
               "name": "TB_Office",
@@ -1758,6 +1758,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 30,
             "ports": {
               "groups": {
                 "top": {
@@ -1853,8 +1854,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 30
+            }
           },
           {
             "position": {
@@ -1877,6 +1877,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 31,
             "ports": {
               "groups": {
                 "top": {
@@ -1960,7 +1961,6 @@
               ]
             },
             "id": "84c70e83-5263-4bbf-bddf-d426d63a295b",
-            "zIndex": 31,
             "data": {
               "type": "tm.Actor",
               "name": "Werker in office",
@@ -1988,8 +1988,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "a1de4149-16ae-4c3a-9e94-9bb6ce35254b",
             "zIndex": 32,
+            "id": "a1de4149-16ae-4c3a-9e94-9bb6ce35254b",
             "data": {
               "type": "tm.Text",
               "name": "Trust Boundary: Trein/Openbare ruimte",
@@ -2017,6 +2017,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 33,
             "ports": {
               "groups": {
                 "top": {
@@ -2100,7 +2101,6 @@
               ]
             },
             "id": "53108e96-427e-4321-b932-2beceee0279f",
-            "zIndex": 33,
             "data": {
               "type": "tm.Actor",
               "name": "Malafide Wi-Fi",
